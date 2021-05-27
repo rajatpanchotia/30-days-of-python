@@ -1,0 +1,15 @@
+friends = (
+    {"name": "rajat","age":23},
+    {"name": "samyak","age":24},
+    {"name": "kanika","age":25},
+    {"name": "vishal;","age":26},
+    )
+
+print(friends[0]["name"])
+print(friends[1]["name"])
+print(friends[2]["name"])
+print(friends[3]["name"])
+
+friends = [("Rolf" ,24),("Adam",0)]
+friends_ages =dict(friends)
+print(friends_ages)
